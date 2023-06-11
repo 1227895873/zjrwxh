@@ -50,9 +50,9 @@ export default defineComponent({
 
     },
     mounted() {
-        // this.increate();
-        // this.sum();
-
+        this.increate();
+        this.sum();
+        this.$router.push({path:'/login'})
     },
     methods: {
         componentEvent(data) {
