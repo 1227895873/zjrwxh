@@ -31,6 +31,7 @@ export default defineConfig({
       }
     }
   },
+  
   base: "/wxhzjrhk/",
   build: {
     outDir: "docs"

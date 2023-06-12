@@ -211,7 +211,7 @@ export default {
       }
     };
 
-    const performSearch = () => {
+    const performSearch  = () => {
       if (searchId.value) {
         if (searchId.value === '918' || searchId.value === '919' || searchId.value === '915') {
           // 执行文件夹ID搜索
