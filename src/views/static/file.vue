@@ -52,8 +52,8 @@
         </el-form-item>
         <el-form-item label="文件夹ID" required>
           <el-select v-model="file.folderId" placeholder="请选择存入的文件夹">
-            <el-option label="图片" value="912"></el-option>
-            <el-option label="文档" value="913"></el-option>
+            <el-option label="图片" value="918"></el-option>
+            <el-option label="文档" value="919"></el-option>
             <el-option label="PDF" value="915"></el-option>
           </el-select>
         </el-form-item>
@@ -213,7 +213,7 @@ export default {
 
     const performSearch = () => {
       if (searchId.value) {
-        if (searchId.value === '912' || searchId.value === '913' || searchId.value === '915') {
+        if (searchId.value === '918' || searchId.value === '919' || searchId.value === '915') {
           // 执行文件夹ID搜索
           console.log('搜索文件夹ID：', searchId.value);
           getFilesByFolderId(searchId.value)
