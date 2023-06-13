@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+[submodule "jqr-school-2"]
+    path = jqr-school-2
+    url = https://github.com/example/jqr-school-2.git
